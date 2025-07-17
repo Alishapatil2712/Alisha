@@ -95,14 +95,14 @@ li {
   right: 0;
   bottom: 0;
   background-image: url('D:\OJT\day4\vck-ojt-project\vck-ojt-app\public\Images\college-banner-Cz0xylpt.jpg');
-  background-size: 1000px 400px;
+  background-size: 1000px 200px;
   background-position: center;
   filter: none(2px);                    /* 👈 Slight blur */
-  transform: scale(1.1);               /* Prevent edges from showing due to blur */
+  transform: scale(2.8);               /* Prevent edges from showing due to blur */
   z-index: 0;
 
   background-repeat: no-repeat;
-  padding: 6rem 2rem;
+  padding: 6rem 4rem;
   text-align: center;
   color: rgb(43, 39, 164);
   margin-bottom: 2rem;

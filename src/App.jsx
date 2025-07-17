@@ -8,7 +8,7 @@ import ContactPage from './pages/ContactPage';
 import HomePage from './pages/HomePage';
 import AdmissionPage from './pages/AdmissionPage';
 import CoursesPage from './pages/CoursesPage';
-
+import ChatbotComponent from "./components/Chatbot/ChatbotComponents"
 
 // Header
 import Header from './components/Header/Header';
@@ -47,6 +47,7 @@ function App() {
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
+      <ChatbotComponent/>
       <Footer/>
     </Router>
     </>
